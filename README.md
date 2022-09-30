@@ -6,7 +6,7 @@
 
 - `capoo` (bugcat capoo，猫猫虫)
 
-  预览： <img src='img/capoo/0001.gif'></img>
+  预览： <img src='img/capoo/0004.gif'></img>
 
 - `dolo` (一套猫猫头表情包，未发现官名自己起的名字，暂未收录完整，待更新)
 
@@ -22,11 +22,17 @@
 
   使用方法：`adder.py 表情包目录名 要添加的目录/文件 是否复制` 
 
+  举例： `python adder.py capoo abc.gif 0` , `python adder.py capoo mylist/` 
+
   是否复制可以不填，默认为复制，填了 0 的话为剪贴
 
   将会在对应目录下新增对应表清包，名字格式为整数编号 `%04d` 
 
-  为了避免命名混乱，建议 pull\_request 更新使用本格式处理好文件名
+  为了避免命名混乱，建议 pull\_request 更新使用本格式处理好文件名；如果您有其他命名和文件管理方案也可以。本方案仅供参考。
+  
+- `repeatChecker.py`
+
+  检查一个文件夹里重复的文件有多少个(用于去重) (懒，以后再做)
 
 
 
