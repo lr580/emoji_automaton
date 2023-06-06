@@ -1,1 +1,1 @@
-{'capoo': {'top': 391, 'ranCmd': 'capoo'}, 'oni': {'top': 142, 'ranCmd': 'oni'}}
+{'capoo': {'top': 391, 'ranCmd': 'capoo'}, 'oni': {'top': 144, 'ranCmd': 'oni'}, 'duoluo': {'top': 77, 'ranCmd': 'duoluo'}}
